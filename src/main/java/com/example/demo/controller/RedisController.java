@@ -18,6 +18,7 @@ public class RedisController {
 
     public String doRedis(){
 
+        //hello
         redisTemplate.opsForValue().setBit("key",1,true);
 
 
