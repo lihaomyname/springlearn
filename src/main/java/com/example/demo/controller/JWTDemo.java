@@ -20,6 +20,7 @@ public class JWTDemo {
     public static void main(String... args) throws InterruptedException {
 
 
+        //jwt
         //设置3秒后过期
         SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
         long time = System.currentTimeMillis() + 30 * 60 * 1000;
