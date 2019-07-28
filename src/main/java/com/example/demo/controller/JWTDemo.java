@@ -12,14 +12,12 @@ import java.util.Map;
  * @Author: smart lihao
  * @Date: 2019/5/29 14:06
  */
-public class  JWTDemo {
+public class JWTDemo {
 
     //加密的
     private static final String SECRET_KEY = "123456789";
 
     public static void main(String... args) throws InterruptedException {
-
-
         //jwt
         //设置3秒后过期
         SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
@@ -29,6 +27,7 @@ public class  JWTDemo {
         // 验证token是否可用
         boolean isOk = isJwtValid(jwt);
         System.out.println(isOk);
+        System.out.println("hello");
     }
 
 
