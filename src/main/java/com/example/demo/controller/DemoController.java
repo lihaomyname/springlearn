@@ -40,6 +40,7 @@ public class DemoController {
     public String upload(MultipartFile file, HttpServletRequest request, HttpServletResponse response) {
         // 省略业务逻辑代码。。。
         String referer = request.getHeader("Referer");
+        String demo="";
         System.out.println(file);
         String imgUrl = null;
         byte[] bytes = new byte[0];
