@@ -33,6 +33,8 @@ public class DemoController {
     private String app;
 
 
+    private String dev;
+
     // 上传图片
     @RequestMapping(value = "/upload", method = RequestMethod.POST)
     public String upload(MultipartFile file, HttpServletRequest request, HttpServletResponse response) {
