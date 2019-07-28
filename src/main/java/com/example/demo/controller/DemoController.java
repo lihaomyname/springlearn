@@ -39,6 +39,7 @@ public class DemoController {
     @RequestMapping(value = "/upload", method = RequestMethod.POST)
     public String upload(MultipartFile file, HttpServletRequest request, HttpServletResponse response) {
         // 省略业务逻辑代码。。。
+        //hello demo
         String referer = request.getHeader("Referer");
         System.out.println(file);
         String imgUrl = null;
