@@ -46,6 +46,7 @@ public class DemoController {
         String demo="";
         System.out.println(file);
         String imgUrl = null;
+        System.out.println("测试");
         byte[] bytes = new byte[0];
         OutputStream outputStream = null;
         try {
