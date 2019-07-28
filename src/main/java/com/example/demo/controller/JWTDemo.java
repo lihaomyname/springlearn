@@ -12,7 +12,7 @@ import java.util.Map;
  * @Author: smart lihao
  * @Date: 2019/5/29 14:06
  */
-public class JWTDemo {
+public class  JWTDemo {
 
     //加密的
     private static final String SECRET_KEY = "123456789";
