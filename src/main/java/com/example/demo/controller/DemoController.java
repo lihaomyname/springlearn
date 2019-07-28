@@ -42,6 +42,7 @@ public class DemoController {
         //hello demo
         //
         String referer = request.getHeader("Referer");
+        String demo="";
         System.out.println(file);
         String imgUrl = null;
         byte[] bytes = new byte[0];
