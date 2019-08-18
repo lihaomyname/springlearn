@@ -1,5 +1,7 @@
 package com.example.demo.bean;
 
+import lombok.Builder;
+
 /**
  * @Author: smart lihao
  * @Date: 2019/5/2 14:08
